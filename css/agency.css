@@ -1,0 +1,37 @@
+
+.agency {
+    font-size: 62.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%
+}
+
+.agency > div {
+    height: 100%;
+    width: 50%;
+}
+
+.agency > .video {
+    background-image: url('../assets/agency1.png');
+}
+
+.agency-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.agency-info > h2 {
+    font-size: 3rem;
+}
+.agency-info > p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
