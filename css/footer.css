@@ -1,0 +1,99 @@
+footer {
+    width: 85%;
+    margin: 0px auto;
+}
+
+footer div.footerContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+footer div.footerContainer section {
+    padding: 10px 5px;
+}
+
+footer div.footerContainer section h2 {
+    margin: 10px 0px;
+}
+
+footer div.footerContainer section div ul.footrUl {
+    list-style: none;
+}
+
+footer div.footerContainer section div ul.footrUl li {
+    padding: 5px 0px;
+}
+
+footer div.footerContactUs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer div.footerContactUs section {
+    margin: 10px;
+}
+
+footer div.footerContactUs section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+footer div.footerContactUs section div span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div.footerContactUs section div span i{
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+}
+footer div.footerContactUs{
+    position: relative;
+    padding: 10px 0px;
+}
+footer div.footerContactUs::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    border-bottom: solid 1px #E4E4E4;
+    width: 100%;
+}
+footer div.footerContactUs section div span i.fa-facebook-f{
+    background-color: #3B5998;
+}
+footer div.footerContactUs section div span i.fa-twitter{
+    background-color: #55ACEE;
+}
+
+footer div.footerContactUs section div span i.fa-linkedin-in{
+    background-color: #007AB9;
+}
+
+@media (min-width:500px) and (max-width:768px) {
+    footer div.footerContainer{
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+
+@media (max-width:500px)  {
+    footer div.footerContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.Copyright{
+    margin: 10px 0px;
+    text-align: center;
+    width: 100%;
+    color:#A4A4A4;
+}
